@@ -1,8 +1,9 @@
 {
-  "name": "workflow-bpmn-modeler",
-  "version": "0.2.8",
+  "name": "morris-workflow-bpmn-modeler",
+  "version": "0.2.93",
   "description": "基于 `vue` 和 `bpmn.io@7.0` ，实现 flowable 的 modeler 模型设计器",
-  "main": "dist/workflow-bpmn-modeler.umd.min.js",
+  "private": false,
+  "main": "dist/morris-workflow-bpmn-modeler.umd.min.js",
   "scripts": {
     "dev": "vue-cli-service serve --open",
     "demo": "cross-env NODE_ENV=demo vue-cli-service build",
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GoldSubmarine/workflow-bpmn-modeler.git"
+    "url": "git+https://github.com/nhbcyz/workflow-bpmn-modeler"
   },
   "keywords": [
     "vue",
@@ -27,16 +28,18 @@
     "模型设计器"
   ],
   "author": {
-    "name": "charles",
-    "email": "997462392@qq.com"
+    "name": "nhbcyz",
+    "email": "171036390@qq.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GoldSubmarine/workflow-bpmn-modeler/issues"
+    "url": "https://github.com/nhbcyz/workflow-bpmn-modeler/issues"
   },
   "dependencies": {
     "bpmn-js": "^7.2.1",
+    "core-js": "^3.15.2",
     "element-ui": "^2.12.0",
+    "flowable": "0.0.2",
     "vue": "^2.6.10",
     "xcrud": "0.4.1"
   },

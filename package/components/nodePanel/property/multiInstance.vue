@@ -6,6 +6,7 @@
       width="500px"
       :close-on-click-modal="false"
       :close-on-press-escape="false"
+      :modal-append-to-body="false"
       :show-close="false"
       class="muti-instance"
       @closed="$emit('close')"
